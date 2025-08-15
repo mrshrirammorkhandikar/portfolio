@@ -30,7 +30,8 @@ const Home = () => {
               <ul className="mt-8 flex flex-wrap gap-4">
                 <li>
                   <a
-                    href="#"
+                    href="/Ram_CV.pdf" // Place your CV in the public folder
+                    download="Ram_Morkhandikar_Resume.pdf"
                     className="bg-green-400 text-black px-6 py-3 rounded-md flex items-center gap-2 hover:bg-green-500 transition"
                   >
                     Download CV
