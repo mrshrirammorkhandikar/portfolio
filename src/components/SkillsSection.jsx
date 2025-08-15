@@ -3,72 +3,77 @@ import { useState } from "react";
 const SkillsSection = () => {
   const [activeTab, setActiveTab] = useState("Education");
 
-  const tabs = ["Education", "Biography", "Experience"];
+  const tabs = ["Education", "Skills", "Experience"];
 
-  const educationData = [
-    {
-      title: "MBA",
-      subtitle: "University of Dhaka",
-      year: "2009 - 2012",
-      description:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thsinquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-    },
-    {
-      title: "HSC",
-      subtitle: "Govt Bangala College",
-      year: "2007 - 2009",
-      description:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thsinquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-    },
-    {
-      title: "SSC",
-      subtitle: "Govt Bangala College",
-      year: "2005 - 2007",
-      description:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thsinquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-    },
-  ];
+const educationData = [
+  {
+    title: "BE",
+    subtitle: "Marathwada Mtra Mandal's Institute Of Technology, Pune",
+    year: "2023",
+    description:
+      "Bachelor’s in Computer Science, specializing in software development, algorithms, and modern web technologies. Completed multiple academic projects demonstrating problem-solving and innovative thinking.",
+  },
+  {
+    title: "HSC",
+    subtitle: "Keshavraj Mahavidyalaya, Latur",
+    year: "2016 - 2018",
+    description:
+      "Higher Secondary Certificate in Science with a focus on Physics, Chemistry, and Mathematics. Developed analytical skills and a strong foundation for engineering studies.",
+  },
+  {
+    title: "SSC",
+    subtitle: "Anjani Prashala, Naldurg",
+    year: "2016",
+    description:
+      "Successfully completed Secondary School Certificate with distinction, building a strong academic base and interest in technology and problem-solving.",
+  },
+];
 
-  const biographyData = [
-    {
-      title: "MBA",
-      subtitle: "University of Dhaka",
-      year: "2009 - 2012",
-      description:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thsinquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-    },
-    {
-      title: "BBA",
-      subtitle: "University of Dhaka",
-      year: "2009 - 2012",
-      description:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thsinquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-    },
-  ];
+
+  const skillsData = [
+  {
+    title: "Python",
+    subtitle: "Programming Language",
+    year: "★★★☆☆",
+    description: "Solid foundation in Python for backend development, scripting, and automation.",
+  },
+  {
+    title: "JavaScript",
+    subtitle: "Programming Language",
+    year: "★★★★☆",
+    description: "Strong skills in JavaScript for web development and interactive UI components.",
+  },
+  {
+    title: "React",
+    subtitle: "Frontend Framework",
+    year: "★★★☆☆",
+    description: "Proficient in building dynamic and responsive web apps using React.",
+  },
+  {
+    title: "Node.js",
+    subtitle: "Backend Runtime",
+    year: "★★★☆☆",
+    description: "Experience in developing scalable backend services and APIs using Node.js.",
+  },
+];
+
 
   const experienceData = [
     {
-      title: "Creative Agency",
-      subtitle: "Framer Designer & Developer",
-      year: "2019 - Present",
+      title: "Freelancing",
+      subtitle: "Freelance Designer & Developer",
+      year: "2020 - Present",
       description:
         "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thsinquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
       progress: 20,
     },
-    {
-      title: "Apple Technology",
-      subtitle: "Web Application Manager",
-      year: "2009 - 2012",
-      description:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed thsinquia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
-      progress: 80,
-    },
+    
   ];
 
   const renderContent = () => {
     let data;
     if (activeTab === "Education") data = educationData;
-    if (activeTab === "Biography") data = biographyData;
+    if (activeTab === "Skills") data = skillsData;
     if (activeTab === "Experience") data = experienceData;
 
     return (

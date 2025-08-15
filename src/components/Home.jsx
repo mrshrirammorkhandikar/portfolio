@@ -15,7 +15,7 @@ const Home = () => {
           <div className="w-full md:w-9/12 lg:w-7/12 xl:w-6/12">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white">
-                HI, I'M ZYAN! Creative <RotatingText />
+                HI, I'M Ram! Creative <RotatingText />
             </h1>
 
 

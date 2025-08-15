@@ -11,9 +11,9 @@ export default function Contact() {
             <Phone className="mx-auto mb-4 text-green-400" size={40} />
             <h3 className="text-lg font-semibold mb-2">Phone</h3>
             <p className="text-gray-400 mb-3">
-              Lorem ipsum eros justo, posuer oborti viverra laor house of street
+              Watsapp Me with Your ideas
             </p>
-            <p className="text-white font-medium">123-45664-746846</p>
+            <p className="text-white font-medium">+91-7218860925</p>
           </div>
 
           {/* Location */}
@@ -21,7 +21,7 @@ export default function Contact() {
             <Map className="mx-auto mb-4 text-green-400" size={40} />
             <h3 className="text-lg font-semibold mb-2">Location</h3>
             <p className="text-gray-400 mb-3">
-              Dhaka 102, m eros justo, posuer oborti viverra laor house of street
+              New Simons office, Malhar Colony , Hadapsar, Pune
             </p>
             <p className="text-green-400 font-medium cursor-pointer">
               View on map
@@ -33,10 +33,10 @@ export default function Contact() {
             <Mail className="mx-auto mb-4 text-green-400" size={40} />
             <h3 className="text-lg font-semibold mb-2">Monday - Sunday</h3>
             <p className="text-gray-400 mb-3">
-              Dhaka 102, m eros justo, posuer oborti viverra laor house of street
+              New Simons office, Malhar Colony , Hadapsar, Pune
             </p>
             <p className="text-green-400 font-medium">
-              hfavouriteemail@gmail.com
+              iammrrammorkhandikar@gmail.com
             </p>
           </div>
         </div>

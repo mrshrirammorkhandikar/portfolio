@@ -5,17 +5,17 @@ const Services = ({ id }) => {
     {
       icon: <FileText size={40} />,
       title: "WEBSITE DESIGN",
-      description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      description: "I create websites that are not only visually stunning but also intuitive, fast, and responsive. Every design is tailored to your brand’s personality, ensuring your online presence is as engaging as it is functional. From sleek portfolios to powerful e-commerce stores, I make sure your site leaves a lasting impression.",
     },
     {
       icon: <Cloud size={40} />,
       title: "LOGO DESIGN",
-      description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      description: "Your logo is the heartbeat of your brand. I design unique, memorable logos that capture your essence and instantly connect with your audience. Each concept is carefully crafted to be timeless, versatile, and unmistakably yours.",
     },
     {
       icon: <Smartphone size={40} />,
       title: "APPS DEVELOPMENT",
-      description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      description: "I build user-friendly, high-performance apps that turn your ideas into practical tools. From concept to launch, I focus on smooth navigation, clean design, and robust functionality — delivering apps that people love to use.",
     },
   ];
 

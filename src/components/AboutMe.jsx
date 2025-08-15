@@ -21,9 +21,7 @@ const AboutMe = () => {
             <div>
               <h3 className="text-lg font-semibold mb-2">My Ambition</h3>
               <p className="text-gray-400 leading-relaxed">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut 
-                fugit sed quia consequuntur magni dolores eos qui ratione voluptatem 
-                sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                I strive to create designs that not only look beautiful but also tell meaningful stories. My goal is to bridge creativity and functionality, so every project becomes an experience that connects with people on a deeper level. I want my work to inspire, spark curiosity, and leave a lasting impression — not just on the screen, but in the hearts and minds of those who interact with it.
               </p>
             </div>
           </div>
@@ -36,9 +34,7 @@ const AboutMe = () => {
             <div>
               <h3 className="text-lg font-semibold mb-2">My Purpose</h3>
               <p className="text-gray-400 leading-relaxed">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut 
-                fugit sed quia consequuntur magni dolores eos qui ratione voluptatem 
-                sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                My purpose is to use design as a tool for positive change — shaping ideas into experiences that matter. Whether it’s solving a problem, communicating a complex message, or simply bringing joy, I believe design has the power to influence how we think, feel, and act. Every project is an opportunity to make an impact, to give meaning to details, and to turn vision into reality.
               </p>
             </div>
           </div>
