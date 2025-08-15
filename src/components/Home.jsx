@@ -1,4 +1,5 @@
 import heroImage from "../assets/images/My_Bg_Image.png";
+import CV from "../assets/Ram_Morkhandikar_Resume.pdf";
 import RotatingText from "../effect/RotatingText";
 
 const Home = () => {
@@ -30,7 +31,7 @@ const Home = () => {
               <ul className="mt-8 flex flex-wrap gap-4">
                 <li>
                   <a
-                    href="/Ram_CV.pdf" // Place your CV in the public folder
+                    href={CV}// Place your CV in the public folder
                     download="Ram_Morkhandikar_Resume.pdf"
                     className="bg-green-400 text-black px-6 py-3 rounded-md flex items-center gap-2 hover:bg-green-500 transition"
                   >
